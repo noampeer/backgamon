@@ -1,0 +1,29 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>backgamon</title>
+    <script src="backgamon.js"></script>
+    <script src="build_functions.js"></script>
+    <style>
+
+        body {
+            background-color: #2ecccc;
+        }
+    </style>
+
+</head>
+<body onload="on_page_load();">
+    <form id="form1" runat="server">
+        <div>
+            <button type='button' onclick="rollblue()">Click me</button>
+            <center>
+                <canvas id="myCanvas" width="1800" height="800" style="background-color: #5a2907; border: solid black 1px;"></canvas>
+            </center>
+            <button type='button' onclick="rollbrown()">Click me</button>
+        </div>
+    </form>
+</body>
+</html>
